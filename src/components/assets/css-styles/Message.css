@@ -1,0 +1,88 @@
+.doctor-messages-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+  .messages-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .messages-header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .messages-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .messages-list {
+    margin: 20px 0;
+  }
+  
+  .messages-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .messages-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messages-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .messages-list li.read {
+    background-color: #f5f5f5;
+  }
+  
+  .messages-list li.unread {
+    border-left: 5px solid #28a745;
+  }
+  
+  .message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .patient-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .message-date {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .message-subject {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .new-badge {
+    background-color: #28a745;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+  

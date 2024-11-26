@@ -1,0 +1,55 @@
+.doctor-schedule-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  
+  .schedule-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .schedule-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .schedule-list {
+    margin: 20px 0;
+  }
+  
+  .schedule-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .schedule-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .schedule-list li.closed {
+    color: #d9534f;
+  }
+  
+  .day {
+    font-weight: bold;
+  }
+  
+  .hours {
+    color: #555;
+  }
+  

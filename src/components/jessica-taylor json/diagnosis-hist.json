@@ -1,0 +1,11 @@
+[
+  {
+    "month": "Oct",
+    "year": 2023,
+    "blood_pressure": {
+      "systolic": { "value": 120, "levels": "Higher than Average" },
+      "diastolic": { "value": 80, "levels": "Lower than Average" }
+    }
+  }
+  
+]

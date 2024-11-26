@@ -1,0 +1,15 @@
+[
+    {
+      "patientName": "Jessica Taylor",
+      "date": "2024-11-21",
+      "subject": "Follow-up on appointment",
+      "read": false
+    },
+    {
+      "patientName": "Emily Williams",
+      "date": "2024-11-20",
+      "subject": "Urgent: Medication question",
+      "read": true
+    }
+  ]
+  
